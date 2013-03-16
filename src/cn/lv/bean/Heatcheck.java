@@ -13,7 +13,7 @@ import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
 
 import com.smart.bean.AbstractModel;
-@Entity
+@Entity 
 @Table(name="tbl_heatcheck")
 @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
 public class Heatcheck extends AbstractModel {
