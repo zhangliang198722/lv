@@ -3,3 +3,7 @@
 # Package Files #
 *.war
 *.ear
+/build
+/.project
+/.settings
+/.classpath
