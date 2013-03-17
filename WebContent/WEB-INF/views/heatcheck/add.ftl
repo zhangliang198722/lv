@@ -70,6 +70,7 @@ Ext.onReady(function() {
 				//autoHeight : true,
 				layout : 'fit',
 				autoScroll:true,
+				labelAlign:'right',
 				defaults:{
 					readOnly:(parentElement.params.operator_action == 'detail'),
 					width:'96%',

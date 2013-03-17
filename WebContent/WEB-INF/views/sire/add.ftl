@@ -67,6 +67,7 @@ Ext.onReady(function() {
 			items : [{
 				title : '繁殖记录',
 				bodyStyle : 'padding:10px',
+				labelAlign:'right',
 				//autoHeight : true,
 				layout : 'fit',
 				autoScroll:true,

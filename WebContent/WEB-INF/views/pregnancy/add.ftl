@@ -65,10 +65,11 @@ Ext.onReady(function() {
 			activeTab : 0,
 			plain : true,
 			items : [{
-				title : '情检记录',
+				title : '孕检记录',
 				bodyStyle : 'padding:10px',
 				//autoHeight : true,
 				layout : 'fit',
+				labelAlign:'right',
 				autoScroll:true,
 				defaults:{
 					readOnly:(parentElement.params.operator_action == 'detail'),

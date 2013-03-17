@@ -261,6 +261,17 @@
 												handler : loadMain
 										};
 										
+										toolBar[toolBar.length] = '-';
+										toolBar[toolBar.length] = {
+												text : '驴驹报表',
+												tooltip : '驴驹报表',
+												id : "smart:pms:donkey_report:view",
+												iconCls : 'smart_irms_ui_meeting',
+												content : 'donkeyreport/index',
+												// helpCode:"pms_project",
+												handler : loadMain
+										};
+										
 										var mitem = [];
 	
 										mitem[mitem.length] = {
