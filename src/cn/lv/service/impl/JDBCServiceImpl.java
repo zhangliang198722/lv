@@ -30,4 +30,12 @@ public class JDBCServiceImpl implements JDBCService {
 	public int update(String sql){
 		return jdbcDao.update(sql);
 	}
+	
+	public List<Map<String, Object>> resultQuery(String sql, Map<String, Object> params) {
+		String where = (String) params.get("where");
+		List<Map<String,Object>> result = jdbcDao.queryLimit(sql, where, 20, 1);
+//		String s = JsonUtil.list2json(result);
+//		int num = jdbcDao.queryLimit(sql, where, 100000, 0).size();
+		return result;
+	}
 }
